@@ -1,141 +1,32 @@
-header{
-   background-color: grey;
-  border-radius: 0;
-  border: 0;
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
-#header-nav {
+nav{
   background-color: grey;
-  border-radius: 0;
-  border: 0;
 }
+
+.navbar {
+    background-color: #ccc;
+}
+
 .navbar-brand {
-  padding-top: 25px;
-}
-.navbar-brand h1{ /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: black;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid black;
-  position: absolute;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-
-}
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-.container-fluider{
-  background-color: grey;
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: auto;
-  height: 1000px;
- 
+    font-weight: bold;
+    font-size: 2em;
 }
 
-@media (min-width: 992px) {
-  .container-fluider{
-    height: 1000px;
-  }
+header {
+    margin: 30px auto;
 }
-@media (min-width: 768px) and (max-width: 991px) {
- .container-fluide  {
-  height: 1000px;
-   margin-left: 25px;
-  margin-right: 25px;
- }
-}
-@media (max-width: 767px) {
-  .container-fluide  {
-    height: 1000px;
-   margin-left: 30px;
-  margin-right: 30px;
- }
- /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
+.row {
+    padding: 20px;
+}
 
-}
-h1 {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  font-size: 25px;
-  padding: 20px;
-  margin-bottom: 30px;
-  }
-h2 {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  font-size: 25px;
-}
-#p{
-  width: auto;
-  box-sizing: border-box;
-  float: left;
-}
-#chiken{
-  width: 150px;
-  box-sizing: border-box;
-  float: right;
-  border: 1px solid black;
-  padding: 5px;
-  background: pink;
-}
-#beef{
-  width: 150px;
-  box-sizing: border-box;
-  float: right;
-  border: 1px solid black;
-  padding: 5px;
-  background: red;
-}
-#sushi{
-  width: 150px;
-  box-sizing: border-box;
-  float: right;
-  border: 1px solid black;
-  padding: 5px;
-  background: yellow;
+.row>div>div {
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
